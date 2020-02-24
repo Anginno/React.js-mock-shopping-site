@@ -1,0 +1,64 @@
+
+main {
+	z-index: 0;
+	position: relative;
+	margin-top: 100px;
+}
+
+/* Navigation bar */
+
+header {
+	height: 90px;
+	z-index: 5;
+	background-color: white;
+	position: fixed;
+	width: 100vw;
+	top: 0;
+	left: 0;
+}
+
+.nav-logo {
+	width: 60px;
+	height: auto;
+}
+
+.primary-nav-styling ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 13px;
+	font-size: 1.5rem;
+}
+
+.primary-nav-styling ul li a{
+	float: left;
+	margin-right: 30px;
+	color: black;
+}
+
+.primary-nav-styling ul li a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+/* Product List page */
+
+.product-container .row .col-12 {
+	padding-left: 0;
+	position: relative;
+}
+
+.product-img-card {
+	width: 100%;
+	height: auto;
+}
+
+.product-title {
+	margin-top: 100px;
+	font-size: 2rem;
+}
+
+.product-description {
+	position: absolute;
+	bottom: 100px;
+}
