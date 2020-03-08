@@ -8,7 +8,7 @@ const RelatedProducts = ({ products }) => (
 		<h4>Related Products</h4>
 		<div className="row">
 		{ products.map(products => (
-			<Link key={ products.name } to={`/product/${ products.name }`} className="col-4">
+			<Link key={ products.name } to={`/product/${ products.name }`} className="col-12 col-md-4">
 				<img className="product-img-card" src={ "/images/" + products.imageUrl } alt={ "an Image of " + products.productName } />
 				<p><strong>{ products.productName }</strong></p>
 				<p>{ products.Price }</p>

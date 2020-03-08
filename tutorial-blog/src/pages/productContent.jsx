@@ -26,6 +26,33 @@ const products = [
 			"The perfect chair to go with any dining table. This contemporary chair was made in collaboration with designer Marvin Elleroy and uses swan feathers for the inside of the cushion and covered with leather that is locally sourced here in Australia."
 		]
 	},
+	{
+		name: 'minima-desk',
+		productName: "Minima Desk",
+		Price: 120.99,
+		imageUrl: "dig-in-chair.jpg",
+		Description: [
+			"This desk goes great in any scenario or room. It's minimal design lets it blend in any room and it is also heigh adjustable."
+		]
+	},
+	{
+		name: 'illuma-lamp',
+		productName: "Illuma Lamp",
+		Price: 89.99,
+		imageUrl: "dig-in-chair.jpg",
+		Description: [
+			"Nowadays, lights have too many features like multi-color or speakers. This lamp is sticking back to its roots and the only feature it has is to light up your room and maybe your life too."
+		]
+	},
+	{
+		name: 'tier-list-shelf',
+		productName: "Tier List Shelf",
+		Price: 249.99,
+		imageUrl: "dig-in-chair.jpg",
+		Description: [
+			"Perfect for people who want to organize their belongings in a tier-like fashion. This shelf comes with 3 tiers (4 if you include the top) and even comes with a step for people who are unable to reach the top."
+		]
+	},
 ];
 
 export default products;

@@ -6,7 +6,7 @@ const ProductsList = ({ products }) => (
 
 		<React.Fragment>
 		{ products.map(product => (
-			<div key={ product.productName } className="row">
+			<div key={ product.productName }>
 				<div className="col-1"></div>
 				<div className="col-10">
 					<div className="product-container mb-5">
@@ -18,7 +18,6 @@ const ProductsList = ({ products }) => (
 								<p className="product-title"><strong>{ product.productName }</strong></p>
 								<p>${ product.Price }</p>
 								<div className="product-description">
-									<p>{ product.Description }</p>
 									<Link className="mr-5" to={`/product/${ product.name }`}>View Product</Link>
 									<Link to={`/product/${ product.name }`}>Add to Cart</Link>
 								</div>

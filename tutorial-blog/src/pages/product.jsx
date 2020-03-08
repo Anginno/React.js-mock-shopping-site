@@ -11,13 +11,12 @@ const Product = ({match}) => {
 	if (product) {
 		return (
 			<React.Fragment>
-				<h1 className="mb-5 mt-5">{ product.productName }</h1>
 				<div className="row mb-5">
-					<div className="col-7">
+					<div className="col-12 col-md-7">
 						<img className="product-img-card" src={ "/images/" + product.imageUrl } alt={ "an Image of " + product.productName } />
 					</div>
-					<div className="col-5">
-						<p className="product-title"><strong>{ product.productName }</strong></p>
+					<div className="col-12 col-md-5">
+						<h1 className="product-title"><strong>{ product.productName }</strong></h1>
 						<p>${ product.Price }</p>
 						<p>{ product.Description }</p>
 					</div>
